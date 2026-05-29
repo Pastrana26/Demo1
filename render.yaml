@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: demo5
+    runtime: docker
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: SPRING_MONGODB_URI
+        sync: false
+      - key: SPRING_MONGODB_DATABASE
+        value: Barcel
